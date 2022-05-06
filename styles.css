@@ -24,6 +24,14 @@ body {
       color:  #f0a04b;  
   }
 
+  h3 {
+      font: size 40px;
+      line-height: 40px;
+      font-weight: 300px;
+      margin: 50px 0 10px 0;  
+      color:  #f0a04b; 
+  }
+
   p {
       margin: 0px;
       font-size: 20px;
