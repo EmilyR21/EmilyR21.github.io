@@ -17,17 +17,17 @@ body {
   }
   
   h2 {
-      font: size 40px;
+      font: size 50px;
       line-height: 40px;
-      font-weight: 300px;
+      font-weight: 400px;
       margin: 50px 0 10px 0;  
       color:  #f0a04b;  
   }
 
   h3 {
-      font: size 40px;
+      font: size 50px;
       line-height: 40px;
-      font-weight: 300px;
+      font-weight: 400px;
       margin: 50px 0 10px 0;  
       color:  #f0a04b; 
   }
@@ -146,9 +146,9 @@ body {
   }
 
   .square {
-      width: 98%;
+      width: 80%;
       margin: 1%;
-      height: 350px;
+      height: 300px;
       background-color: #ffffff;
       text-align: center;
   }
@@ -169,13 +169,13 @@ body {
       background-size: cover;
   }
 
-  #project three {
+  #tik tok {
       background-image: url("comingsoon.jpg");
       background-repeat: no-repeat;
       background-size: cover;
   }
 
-  #project four {
+  #e-commerce {
       background-image: url("comingsoon.jpg");
       background-repeat: no-repeat;
       background-size: cover;
