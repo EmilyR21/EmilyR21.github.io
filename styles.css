@@ -157,6 +157,11 @@ body {
       background-color: #474747;
   }
 
+ img {
+      width: 50%;
+      height: auto;
+    }
+
   #minesweeper {
       background-image: url("mine.png");
       background-repeat: no-repeat;
