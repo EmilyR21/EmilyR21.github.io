@@ -175,6 +175,14 @@ body {
       background-size: cover;
   }
 
+  #zelda-image {
+      position: relative;
+      width: 50%;
+      height: 350px;
+      display: block;
+      margin-bottom: 100px;
+  }
+
   #store {
       background-image: url("comingsoon.jpg");
       background-repeat: no-repeat;
