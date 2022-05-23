@@ -157,11 +157,6 @@ body {
       background-color: #474747;
   }
 
- img {
-      width: 50%;
-      height: auto;
-    }
-
   #minesweeper {
       background-image: url("mine.png");
       background-repeat: no-repeat;
@@ -178,7 +173,6 @@ body {
       background-image: url("zelda.PNG");
       background-repeat: no-repeat;
       background-size: cover;
-      image-size: 50px 50px;
   }
 
   #store {
