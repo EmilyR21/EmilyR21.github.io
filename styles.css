@@ -164,13 +164,13 @@ body {
   }
 
   #mario {
-      background-image: url("box.PNG");
+      background-image: url("");
       background-repeat: no-repeat;
       background-size: cover;
   }
 
   #zelda {
-      background-image: url("z.PNG");
+      background-image: url("");
       background-repeat: no-repeat;
       background-size: cover;
   }
@@ -184,7 +184,7 @@ body {
   }
 
   #store {
-      background-image: url("comingsoon.jpg");
+      background-image: url("");
       background-repeat: no-repeat;
       background-size: cover;
   }
