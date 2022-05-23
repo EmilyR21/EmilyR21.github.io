@@ -173,9 +173,6 @@ body {
       background-image: url("z.PNG");
       background-repeat: no-repeat;
       background-size: cover;
-  }
-
-  #zelda-image {
       position: relative;
       width: 50%;
       height: 350px;
