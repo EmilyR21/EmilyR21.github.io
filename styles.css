@@ -178,6 +178,7 @@ body {
       background-image: url("zelda.PNG");
       background-repeat: no-repeat;
       background-size: cover;
+      image-size: 50px 50px;
   }
 
   #store {
