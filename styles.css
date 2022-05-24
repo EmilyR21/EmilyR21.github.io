@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body {
+    transition: 0.3s;
+    margin: 0;
+    padding: 0;
+    background-color: #fefbe9;
+    font-family: 'Poppins', sans-serif;
+    color: #183a1d;
+  }
+
+  h1 {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 300;
+    margin: 10px 0;
+  }
+  
+  h2 {
+      font: size 50px;
+      line-height: 40px;
+      font-weight: 400px;
+      margin: 50px 0 10px 0;  
+      color:  #f0a04b;  
+  }
+
+  h3 {
+      font: size 50px;
+      line-height: 40px;
+      font-weight: 400px;
+      margin: 50px 0 10px 0;  
+      color:  #f0a04b; 
+  }
+
+  p {
+      margin: 0px;
+      font-size: 20px;
+  }
+
+  a {
+      color: #f0a04b;
+      font-size: 20px;
+      text-decoration: none;
+      font-weight: 200;
+  }
+
+  .dark a {
+      color: #f6a9f1;
+  }
+
+  header {
+      display: flex;
+      justify-content: flex-end;
+      padding: 30px;
+  }
+
+  /* Add a black background color to the top navigation */
+  .topnav  {
+    background-color: #e1eedd;
+    overflow: hidden;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f0a04b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #183a1d;
+    color: white;
+  }
+
+  .dark .topnav{
+    background-color:#424242 ;
+  }
+  
+  .switch {
+     width: 80px;
+     height: 40px; 
+     border-radius: 20px;
+     background-color: #272626;
+     position: relative;
+  }
+
+  .flicker {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #393939;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: 0.3s;
+    box-shadow: 
+      inset 4px 4px 4px rgb(255,255,255),
+      inset -4px -4px 4px rgb(195 193 198 / 90%);
+  }
+
+.dark {
+  background-color: #393939;
+  transition: 0.3s;  
+}
+
+.moon {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0 0 rgb(255, 255, 255);
+  position: absolute;
+  top: 5px;
+  left: 45px;
+}
+
+.dark .flicker {
+    transform: translateX(40px);
+}
+
+.dark > * {
+    color: #ffffff;
+}
+
+.main {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .main-text {
+      padding: 30px;
+      margin-bottom: 100px;
+  }
+
+  .square {
+      width: 80%;
+      margin: 1%;
+      height: 300px;
+      background-color: #ffffff;
+      text-align: center;
+  }
+
+  .dark .square {
+      background-color: #474747;
+  }
+
+  #minesweeper {
+      background-image: url("mine.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  #mario {
+      background-image: url("");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  #zelda {
+      background-image: url("z.PNG");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  #store {
+      background-image: url("");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .sub-section {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .hero-image {
+      position: relative;
+      width: 50%;
+      height: 350px;
+      display: block;
+      margin-bottom: 100px;
+  }
+
+  .cube {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    transform: rotate(-25deg) skew(25deg);
+  }
+  
+  .cube:before {
+    position: absolute;
+    content: "";
+    width: 21px;
+    height: 100%;
+    transform: skewY(-45deg);
+    left: -20px;
+    bottom: -10px;
+  }
+
+  .cube:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 21px;
+    transform: skewX(-45deg);
+    left: -10px;
+    bottom: -20px;
+  }
+
+  #html {
+    left: 100px;
+    bottom: 80px;
+    background-image: url("html-square.png");
+    background-size: cover;
+    background-color: #e0733d;
+    box-shadow: -60px 60px 20px rgb(50 50 50/ 30%);
+  }
+
+  #html:before {
+    background-color: #cf7b51;
+  }
+  
+  #html:after {
+    background-color: #de8a5f;
+  }
+
+  #css {
+    left: 250px;
+    bottom: 240px;
+    background-image: url("css-square.png");
+    background-size: cover;
+    background-color: #242ad4 ;
+    box-shadow: -100px 100px 20px rgb(50 50 50/ 30%);
+  }
+  
+  #css:before {
+    background-color: #3d4ad4;
+  }
+  
+  #css:after {
+    background-color: #375dab;
+  }
+
+  #javascript {
+    left: 450px;
+    bottom: 80px;
+    background-image: url("javascript-square.png");
+    background-size: cover;
+    background-color: #dbce39;
+    box-shadow: -40px 40px 20px rgb(50 50 50/ 30%);
+  }
+  
+  #javascript:before {
+    background-color: #c7ba32;
+  }
+  
+  #javascript:after {
+    background-color: #dbd15e;
+  }
+
+  footer {
+      display: flex;
+      justify-content: center;
+      padding: 50px 30px;
+      background-color: #e1eedd;
+  }
+
+  .dark footer {
+      background-color: #1c1c1c;
+  }
+
+  @media only screen and (min-width: 970px) {
+      .main-text {
+          width: 50%;
+      }
+  
+  .square {
+      width: 48%;
+      margin: 1%;
+      height: 600px;
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+      .hero-image {
+          display:none;
+      }
+  }
+
+  
