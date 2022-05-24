@@ -164,7 +164,7 @@ body {
   }
 
   #mario {
-      background-image: url("box.png");
+      background-image: url("themario.png");
       background-repeat: no-repeat;
       background-size: cover;
   }
