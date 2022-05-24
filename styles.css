@@ -176,7 +176,7 @@ body {
   }
 
   #store {
-      background-image: url("");
+      background-image: url("cart.png");
       background-repeat: no-repeat;
       background-size: cover;
   }
