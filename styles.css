@@ -164,7 +164,7 @@ body {
   }
 
   #mario {
-      background-image: url("themario.png");
+      background-image: url("");
       background-repeat: no-repeat;
       background-size: cover;
   }
@@ -176,7 +176,7 @@ body {
   }
 
   #store {
-      background-image: url("cart.png");
+      background-image: url("");
       background-repeat: no-repeat;
       background-size: cover;
   }
