@@ -164,13 +164,13 @@ body {
   }
 
   #mario {
-      background-image: url("box.PNG");
+      background-image: url("box.png");
       background-repeat: no-repeat;
       background-size: cover;
   }
 
   #zelda {
-      background-image: url("z.PNG");
+      background-image: url("z.png");
       background-repeat: no-repeat;
       background-size: cover;
   }
